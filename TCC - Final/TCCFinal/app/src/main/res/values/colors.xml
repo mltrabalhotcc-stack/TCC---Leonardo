@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#34629F</color>
+    <color name="primaryDark">#0D47A1</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="GradientInicio">#122A40</color>
+    <color name="GradientFinal">#23497D</color>
+
+    <color name="btn_nav">#122A40</color>
+</resources>

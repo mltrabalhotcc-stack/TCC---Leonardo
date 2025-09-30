@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.example.tcc_final.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menu_sobre"
+        android:name="com.example.tcc_final.fragments.SobreFragment"
+        android:label="fragment_sobre"
+        tools:layout="@layout/fragment_sobre" />
+    <fragment
+        android:id="@+id/menu_datas"
+        android:name="com.example.tcc_final.fragments.DatasFragment"
+        android:label="fragment_datas"
+        tools:layout="@layout/fragment_datas" />
+    <fragment
+        android:id="@+id/menu_salvos"
+        android:name="com.example.tcc_final.fragments.SalvosFragment"
+        android:label="fragment_salvos"
+        tools:layout="@layout/fragment_salvos" />
+</navigation>
